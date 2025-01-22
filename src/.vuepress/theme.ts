@@ -11,9 +11,17 @@ export default hopeTheme({
     url: "https://mister-hope.com",
   },
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  // 导航栏 左上角logo 和 头像   (导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径)
+  logo: "/sun.svg",
+  // 导航栏 左上角logo 和 头像   (夜间模式下导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径)
+  logoDark: '/sun.svg',
+  // 站点图标
+  favicon: 'sun.svg',
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // 导航栏 右上角 github 链接
+  repo: "username-bx/tangyuans",
+  // 导航栏 右上角 github 无障碍标签
+  repoLabel: 'github',
 
   docsDir: "src",
 
@@ -23,13 +31,19 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
-  // 页脚
-  footer: "默认页脚",
+  // 设置 页脚
+  footer: "Welcome",
+
   displayFooter: true,
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    // 博主姓名
+    name: 'Tang Yuan',
+    // 博主头像
+    avatar: '/sun.svg',
+    // 博主介绍
+    description: "love coding, happy life",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",
