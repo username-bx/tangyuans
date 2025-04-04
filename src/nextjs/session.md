@@ -1,0 +1,1 @@
+在server组件里，const session = getSession；
