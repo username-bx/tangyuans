@@ -20,6 +20,8 @@ https://xuanyuan.me/blog/archives/981
 
 https://3.jetbra.in/
 
+https://gitee.com/superbeyone/J2_B5_A5_C4/tree/master/licenses/2025
+
 ```
 
 # 激活码
