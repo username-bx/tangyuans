@@ -47,6 +47,12 @@ export default sidebar({
       prefix: "vuepress/",
       children: "structure",
     },
+    {
+      text: "java",
+      icon: "laptop-code",
+      prefix: "java/",
+      children: "structure",
+    },
     "intro",
   ],
 });

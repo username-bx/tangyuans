@@ -9,4 +9,5 @@ export default navbar([
   "/software/",
   "/vue3/",
   "/vuepress/",
+  "/java/",
 ]);

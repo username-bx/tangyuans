@@ -7,8 +7,8 @@ export default hopeTheme({
   hostname: "https://mister-hope.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "Tang Yuan",
+    url: "",
   },
 
   // 导航栏 左上角logo 和 头像   (导航栏图标，应为基于 .vuepress/public 文件夹的绝对路径)
