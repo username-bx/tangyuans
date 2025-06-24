@@ -1,5 +1,17 @@
-
-
+---
+title: 使用 vue-query 中的 useInfinityQuery 实现滚动请求
+shortTitle: vue-query
+icon: pen-to-square
+date: 2024-06-10
+order: 31
+tag: 
+  - vue-query
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: vue-query
+---
 
 
 # 使用 vue-query 中的 useInfinityQuery 实现滚动请求

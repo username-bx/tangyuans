@@ -1,6 +1,6 @@
 ---
-title: certbot
-shortTitle: certbot
+title: certbot https自签证书
+shortTitle: certbot https自签证书
 icon: pen-to-square
 date: 2024-08-15
 order: 17
@@ -12,6 +12,8 @@ head:
     - name: keywords
       content: certbot
 ---
+# https自签证书
+
 
 1. 安装Certbot客户端
 

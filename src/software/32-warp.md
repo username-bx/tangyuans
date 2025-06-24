@@ -3,7 +3,7 @@ title: mac好用的terminal工具
 shortTitle: mac software warp
 icon: pen-to-square
 date: 2024-09-13
-order: 19
+order: 32
 tag: 
   - mac terminal
 auther: Tang Yuan

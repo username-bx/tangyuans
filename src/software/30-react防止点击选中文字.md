@@ -1,3 +1,18 @@
+---
+title: React 防止点击时选中文字的几种方法
+shortTitle: React
+icon: pen-to-square
+date: 2025-06-10
+order: 30
+tag: 
+  - React
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: React
+---
+
 # React 防止点击时选中文字的几种方法
 
 在使用 React 开发交互组件时，经常会遇到一个问题：**用户点击元素时，意外选中其中的文字**，这会影响交互体验，尤其是在按钮、拖拽、卡片点击等场景中。
