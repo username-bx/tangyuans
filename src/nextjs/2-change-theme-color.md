@@ -1,10 +1,10 @@
 ---
-title: nextjs 主题
+title: nextjs 改变主题颜色
 shortTitle: nextjs
 image: 
 icon: pen-to-square
 date: 2024-10-26
-order: 3
+order: 2
 tag: 
   - nextjs
 auther: Tang Yuan
@@ -13,6 +13,8 @@ head:
     - name: keywords
       content: nextjs 
 ---
+
+# next项目 shadcn更换主题
 
 在 global.css 中添加变量
 bg-background
