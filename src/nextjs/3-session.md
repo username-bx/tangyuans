@@ -1,6 +1,6 @@
 ---
 title: nextjs项目里client和server的不同
-shortTitle: nextjs
+shortTitle: nextjs client和server组件取session
 image: 
 icon: pen-to-square
 date: 2024-10-26

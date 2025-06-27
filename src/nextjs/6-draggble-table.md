@@ -1,6 +1,6 @@
 ---
 title: 拖拽 表格拖动行排序
-shortTitle: nextjs
+shortTitle: nextjs draggableTable
 image: 
 icon: pen-to-square
 date: 2025-04-09

@@ -4,7 +4,7 @@ shortTitle: next.config.js
 image: 
 icon: pen-to-square
 date: 2025-06-25
-order: 12
+order: 11
 tag: 
   - nextjs
 auther: Tang Yuan

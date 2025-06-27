@@ -1,6 +1,6 @@
 ---
 title: nextjs 改变主题颜色
-shortTitle: nextjs
+shortTitle: nextjs 改变shadcn主题颜色
 image: 
 icon: pen-to-square
 date: 2024-10-26

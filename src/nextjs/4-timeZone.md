@@ -1,6 +1,6 @@
 ---
 title: 谷歌浏览器控制台更改时区
-shortTitle: nextjs
+shortTitle: nextjs 谷歌浏览器控制台更改时区
 image: 
 icon: pen-to-square
 date: 2024-10-26
