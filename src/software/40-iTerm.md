@@ -3,6 +3,7 @@ title: iTerm2 oh-my-zsh 配置
 shortTitle: iTerm2 oh-my-zsh
 icon: pen-to-square
 date: 2025-08-20
+star: true
 order: 40
 tag: iTerm2 oh-my-zsh
   - 

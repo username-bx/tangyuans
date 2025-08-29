@@ -16,7 +16,12 @@ head:
 
 # 使用 vue-query 中的 useInfinityQuery 实现滚动请求
 
-```vue
+
+```shell
+@tanstack/vue-query 无限滚动
+```
+
+```js
 
 
 <script setup lang="ts">

@@ -4,6 +4,7 @@ shortTitle: navicat reset
 cover: /assets/images/navicat.png
 icon: pen-to-square
 date: 2023-10-23
+star: true
 order: 5
 tag: 
   - Navicat

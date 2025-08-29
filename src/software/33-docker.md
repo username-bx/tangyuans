@@ -4,6 +4,7 @@ shortTitle: docker shell
 icon: pen-to-square
 date: 2025-06-24
 order: 33
+star: true
 tag: 
   - docker shell
 auther: Tang Yuan

@@ -3,6 +3,7 @@ title: powershell脚本 修改文件名称，添加随机串
 shortTitle: powershell脚本
 icon: pen-to-square
 date: 2025-08-20
+star: true
 order: 39
 tag: powershell
   - 
@@ -16,6 +17,10 @@ head:
 
 # powershell脚本 修改文件名称，添加随机串
 
+
+```shell
+脚本功能： 类型webpack打包工具，给文件添加随机串
+```
 
 ```shell
 $root = Get-Location
