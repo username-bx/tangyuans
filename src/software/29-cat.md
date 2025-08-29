@@ -1,11 +1,14 @@
 ---
 title: mac上一个小猫的打字映射软件
-shortTitle: software
+shortTitle: 小猫的打字映射软件
 icon: pen-to-square
 date: 2024-09-10
 order: 29
+star: true
+category:
+  - software 打字
 tag: 
-  - software
+  - software 打字
 auther: Tang Yuan
 head:
   - - meta
