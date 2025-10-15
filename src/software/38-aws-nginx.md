@@ -1,6 +1,6 @@
 ---
 title: 部署生产环境记录
-shortTitle: 
+shortTitle: aws build
 icon: pen-to-square
 date: 2025-06-27
 order: 38
