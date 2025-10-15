@@ -85,6 +85,10 @@ export default hopeTheme({
     mark: true,
     plantuml: true,
     spoiler: true,
+    highlighter: {
+      type: "shiki",
+      langs: ['ts', 'json', 'vue', 'md', 'bash', 'diff'],
+    },
     stylize: [
       {
         matcher: "Recommended",

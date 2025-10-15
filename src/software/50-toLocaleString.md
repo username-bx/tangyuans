@@ -6,17 +6,17 @@ date: 2025-10-10
 star: true
 order: 50
 category:
-  - toLocaleString
+  - 格式化数据
 tag: 
-  - toLocaleString
+  - 格式化数据
 auther: Tang Yuan
 head:
   - - meta
     - name: keywords
-      content: toLocaleString
+      content: 格式化数据
 ---
 
-
+# 格式化数据 toLocaleString
 
 `toLocaleString()` 是一个非常有用的 JavaScript 方法，用于**根据本地化设置格式化数据**。让我详细介绍它的用法：
 

@@ -1,5 +1,4 @@
 import { defineUserConfig } from "vuepress";
-import { shikiPlugin } from '@vuepress/plugin-shiki'
 import theme from "./theme.js";
 
 import { getDirname, path } from "@vuepress/utils";
@@ -20,13 +19,7 @@ export default defineUserConfig({
       __dirname,
       "./components/BlogHero.vue",
     )
-  },
-  plugins: [
-    shikiPlugin({
-      // 配置项
-      langs: ['ts', 'json', 'vue', 'md', 'bash', 'diff'],
-    }),
-  ],
+  }
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
