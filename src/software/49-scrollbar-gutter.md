@@ -16,6 +16,7 @@ head:
       content: scrollbar-gutter CSS
 ---
 
+# 控制滚动条轨道显示和布局
 
 `scrollbar-gutter` 是一个CSS属性，用于控制滚动条轨道（gutter）的显示和布局行为。让我详细介绍：
 
