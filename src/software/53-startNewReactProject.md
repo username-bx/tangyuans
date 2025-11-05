@@ -50,3 +50,63 @@ npm create vite@latest my-app -- --template react
 npm create vite@latest my-app -- --template react-ts
 
 ```
+
+
+
+## 添加vite/tailwind
+
+https://tailwindcss.com/docs/installation/using-vite
+
+```shell
+npm install tailwindcss @tailwindcss/vite
+
+```
+
+
+
+```ts
+# vite.config.ts
+import { defineConfig } from 'vite'
+import tailwindcss from '@tailwindcss/vite' // <---
+
+export default defineConfig({
+  plugins: [
+    tailwindcss(),  // <---
+  ],
+})
+
+```
+
+```shell
+# CSS
+
+@import "tailwindcss";
+
+```
+
+```html
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/src/style.css" rel="stylesheet"> // <---
+</head>
+<body>
+  <h1 class="text-3xl font-bold underline">  // <---
+    Hello world!
+  </h1>
+</body>
+</html>
+
+```
+
+
+## 添加 react-router-dom
+
+```shell
+
+npm i react-router-dom
+
+```
+
