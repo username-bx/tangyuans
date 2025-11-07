@@ -27,6 +27,7 @@ head:
 ## 2. 提升游戏可玩性，简化游戏
 1. 状态显示 simple status
 2. 金属喷枪加容量 Torch fix
+2. 金属喷枪加容量 [B42/41] Fix BlowTorch & PropaneTank Workshop ID: 3044705007
 3. 木头 金属减重 wood weight metal weight 
 4. 显示武器耐久和伤害 
 5. 显示经验 Simple Show XP
@@ -39,3 +40,5 @@ head:
 ## 4. 可选
 
 更多书籍 
+服装幻化 Fashionoid (Update) B42
+[B42]DebugMenu Workshop ID: 3386556284
