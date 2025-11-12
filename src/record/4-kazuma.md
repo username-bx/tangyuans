@@ -1,4 +1,23 @@
+---
+title: jp 
+shortTitle: jp
+icon: pen-to-square
+date: 2025-06-16
+order: 1
+tag:
+  - jp
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: jp
+---
+
 # Kazuma（カズマ）的语言学习技巧整理
+
+```shell
+
+```
 
 Kazuma 是一位精通 13 种语言的 YouTuber，他分享了很多实用高效的语言学习方法。以下是他的主要技巧整理：
 
