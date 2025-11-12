@@ -13,16 +13,16 @@ headline: blog home
 url: /
 projects:
 
-  - icon: article
-    name: react
-    desc: learn react
-    link: http://
+  # - icon: article
+  #   name: react
+  #   desc: learn react
+  #   link: http://
 
 
-  - icon: project
-    name: 留言板
-    desc: nodejs + mongo 搭建的简易留言板
-    link: http://yl.luogesidoc.com
+  # - icon: project
+  #   name: 留言板
+  #   desc: nodejs + mongo 搭建的简易留言板
+  #   link: http://yl.luogesidoc.com
 
   # - icon: link
   #   name: 链接名称
