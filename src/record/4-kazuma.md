@@ -16,6 +16,7 @@ head:
 # Kazuma（カズマ）的语言学习技巧整理
 
 ```shell
+des: Kazuma（カズマ）的语言学习技巧整理
 
 ```
 
