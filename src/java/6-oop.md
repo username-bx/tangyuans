@@ -1,3 +1,17 @@
+---
+title: java从入门到放弃 oop
+shortTitle: java
+icon: pen-to-square
+date: 2025-06-20
+order: 6
+tag:
+  - java
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: java
+---
 # 面向对象
 
 

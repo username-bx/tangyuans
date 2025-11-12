@@ -1,3 +1,18 @@
+---
+title: java从入门到放弃 byte bit
+shortTitle: java
+icon: pen-to-square
+date: 2025-06-20
+order: 7
+tag:
+  - java
+auther: Tang Yuan
+head:
+  - - meta
+    - name: keywords
+      content: java
+---
+
 # Byte Bit
 
 ## ✅ 一、先搞清两个概念
