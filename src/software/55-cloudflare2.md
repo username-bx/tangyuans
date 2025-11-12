@@ -1,26 +1,26 @@
 ---
-title: cloudflare 部署 D1 Datanase
+title: cloudflare 部署 D1 Database
 shortTitle: cloudflare
 icon: pen-to-square
 date: 2025-11-13
 star: true
 order: 55
 category:
-  - cloudflare Datanase
+  - cloudflare Database
 tag: 
-  - cloudflare Datanase
+  - cloudflare Database
 auther: Tang Yuan
 head:
   - - meta
     - name: keywords
-      content: cloudflare Datanase
+      content: cloudflare Database
 ---
 
 
-# cloudflare 部署 D1 Datanase
+# cloudflare 部署 D1 Database
 
 ```shell
-description: cloudflare D1 Datanase
+description: cloudflare D1 Database
 
 ```
 
