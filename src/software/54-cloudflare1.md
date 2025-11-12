@@ -2,7 +2,7 @@
 title: cloudflare 部署 vuepress 静态页面
 shortTitle: cloudflare
 icon: pen-to-square
-date: 2025-11-05
+date: 2025-11-13
 star: true
 order: 54
 category:
