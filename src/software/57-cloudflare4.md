@@ -54,6 +54,13 @@ const authMiddleware = async (c: Context, next: Next) => {
 };
 ```
 
+
+参考文档
+
+```shell
+https://hono.node.org.cn/docs/helpers/jwt
+```
+
 ```js
 // 生成 JWT token
 const payload = {
