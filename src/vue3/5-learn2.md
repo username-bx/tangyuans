@@ -78,3 +78,24 @@ https://cn.vite.dev/config/shared-options
 ```
 2. server
 3. build
+
+
+
+## vite插件 包依赖
+
+pnpm add -D vite-plugin-vue-devtools
+
+
+```js
+// vite.config.ts
+//  Configuration Vite
+
+import { defineConfig } from 'vite'
+import vueDevTools from 'vite-plugin-vue-devtools'
+
+export default defineConfig({
+  plugins: [
+    vueDevTools(),
+  ],
+})
+```
