@@ -2,8 +2,8 @@
 title: 4. 重新学习vue3 响应式ref
 shortTitle: vue3
 icon: file-code
-date: 2025-11-26
-order: 7
+date: 2025-11-27
+order: 10
 star: true
 tag:
   - vue3
@@ -86,3 +86,5 @@ setTimeout(() => {
 ```
 
 
+
+## 问题： ref 包含了 reactive 的功能， reactive还需要用吗，什么时候只能使用reactive？
