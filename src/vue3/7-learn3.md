@@ -20,7 +20,7 @@ head:
 
 最基本的数据绑定形式是文本插值，它使用的是“Mustache”语法 (即双大括号)
 
-```js
+```vue
 <template>
   <div>{{ name }}</div>
 </template>
@@ -33,7 +33,7 @@ const name = "lorem";
 ## 2.原始 HTML​
 双大括号会将数据解释为纯文本，而不是 HTML。若想插入 HTML，你需要使用 v-html 指令
 
-```js
+```vue
 <template>
   <div>{{ htmlCode }}</div>
   <div v-html="htmlCode"></div>
@@ -54,7 +54,7 @@ const htmlCode = '<span style="color: red;">Lorem, ipsum.</span>'
 双大括号不能在 HTML attributes 中使用。想要响应式地绑定一个 attribute，应该使用 v-bind 指令
 
 
-```html
+```vue
 <template>
   <div v-bild:id="customId">Lorem.</div>
   <!-- 简写 -->
@@ -68,7 +68,7 @@ const customId = 'my-id'
 
 
 ### 3.1 同名简写
-```html
+```vue
 <template>
   <div :id>Lorem.</div>
 </template>
@@ -83,7 +83,7 @@ const id = 'same-id'
 
 ### 3.2 布尔型 Attribute
 
-```html
+```vue
 <template>
   <button :disabled="isDisable0">按钮</button>
   <button :disabled="isDisable1">按钮</button>
@@ -111,7 +111,7 @@ const isDisable6 = undefined
 
 如果有像这样的一个包含多个 attribute 的 JavaScript 对象
 通过不带参数的 v-bind，你可以将它们绑定到单个元素上：
-```html
+```vue
 <template>
   <div v-bind="objectOfAttrs">Lorem.</div>
 </template>
@@ -128,14 +128,14 @@ const objectOfAttrs = {
 
 
 浏览器显示结果
-```html
+```vue
 <div id="container" class="wrapper" style="background-color: green;">Lorem.</div>
 ```
 
 ## 4. 使用 JavaScript 表达式
 
 
-```html
+```vue
 <template>
   <div>{{ number + 1 }}</div>
 
