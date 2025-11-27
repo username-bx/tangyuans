@@ -7,7 +7,7 @@ star: true
 order: 60
 category:
   - vant4 vue3
-tag: 
+tag:
   - vant4 vue3
 auther: Tang Yuan
 head:
@@ -16,13 +16,9 @@ head:
       content: vant4 vue3
 ---
 
-
 # vant4 + vue3 template
 
-
-
 An mobile web apps template based on the Vue 3 ecosystem
-
 
 ```
 github:  https://github.com/vue-zone/vue3-vant-mobile
@@ -30,12 +26,8 @@ github:  https://github.com/vue-zone/vue3-vant-mobile
 demo: https://vue3-vant-mobile.netlify.app/
 ```
 
-
 ```
 github: https://github.com/yulimchen/vue3-h5-template
 
 demo: https://yulimchen.github.io/vue3-h5-template/#/demo
 ```
-
-
-
