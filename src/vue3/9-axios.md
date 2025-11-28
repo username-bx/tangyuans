@@ -48,11 +48,100 @@ const { data } = await getList(requestParams);
 
 ```
 
-## 2. 封装第一步 实例+接收，处理所有参数
+## 2. 封装第一步 创建一个 axios 实例
 
 ```js
+import axios from "axios";
+import type { AxiosInstance } from "axios";
 
+// 生成实例
+const instance: AxiosInstance = axios.create({
+  baseURL: import.meta.env.VITE_APP_URL,
+  timeout: 10000,
+  validateStatus: (status) => {
+    return status >= 200 && status <= 500;
+  },
+});
 ```
+
+## 3. 封装第二步，实例接收一个 option，处理 header 和 token
+
+option 类型为对象
+
+```ts
+type Options = {
+  url: string;
+  method: "GET" | "POST" | "DELETE";
+  params: Record<string, any>;
+  data: Record<string, any>;
+  token: string;
+  headers: Record<string, string>;
+};
+
+async function request<T>({
+  url,
+  method,
+  data,
+  params,
+  token,
+  headers,
+}: Otions): Promise<{
+  data: Res<T>;
+  status: number;
+}> {
+  // 处理 headers 和 token
+  const reqHeaders: Record<string, string> = {
+    ...headers,
+  };
+  if (token) {
+    reqHeaders.token = token;
+  }
+
+  // 把返回类型 告诉 axios 得到一个 带类型的响应
+  // 返回http status 和 data
+  let result: {
+    data: Res<T>;
+    status: number;
+  };
+
+  try {
+    const res = await instance<Res<T>>({
+      url,
+      method,
+      data,
+      params,
+      headers: reqHeaders,
+    });
+    result = {
+      data: res.data,
+      status: res.status,
+    };
+  } catch (error) {
+    console.error("caught request error", error);
+    result = {
+      status: -1,
+      data: {
+        code: 500,
+        message: "caught request error",
+      },
+    };
+  }
+  return result;
+}
+```
+
+## 4.处理实例返回的类型
+
+```js
+axiosInstance() 返回的类型
+
+{
+  status: number; // http 状态码
+  data: Promise<T>
+}
+```
+
+## 5. 完成品
 
 ```js
 import axios from 'axios'
