@@ -18,8 +18,81 @@ head:
 
 # ref
 
+
+## 1. 使用 ref 创建一个响应式数据
+```vue
+<template>
+  <div>{{ num }}</div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+const num = ref(0)
+</script>
+```
+## 2. ref 可以创建任意类型的值，原始值，对象，数组
+```vue
+<template>
+  <div>{{ person.name }}</div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+const person = ref({ name: 'tom' })
+</script>
+```
+
+## 3. ref 创建的对象是深层次的响应式
+
+尤其是嵌套对象的时候
+
+```vue
+<template>
+  <div>{{ person.name }}</div>
+</template>
+
+<script setup>
+import { ref } from 'vue'
+const person = ref({ name: 'tom'，cars: {
+    type: 'tokyo',
+    money: '20'
+}})
+</script>
+```
+## 4. shallowRef 创建浅层的响应式
+
+```js
+import { shallowRef } from 'vue'
+const num = shallowRef(0);
+```
+
+
+## 5. 响应式数据的更新和Dom的更新
+
+异步更新Dom
+nextTick()
+
+```js
+// nextTick 两种使用方式
+async function handleClick() {
+  num.value++
+  console.log(num.value)
+  await nextTick()
+  console.log(num.value)
+}
+
+function handleClick() {
+  num.value++
+  console.log(num.value)
+  nextTick(() => {
+    console.log(num.value)
+  })
+}
+```
+
+
 ## 1. ref 在模版中使用
-1. 当ref的值为时，模板不需要.value
+1. 当ref的值为原始值时，模板不需要.value
 2. 当ref的值为对象时，模板不需要.value
 
 ```vue
