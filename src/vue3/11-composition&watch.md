@@ -14,32 +14,32 @@ head:
       content: vue3
 ---
 
-# 组合式api中的 watch
+# 组合式 api 中的 watch
 
 1. 创建一个 useCount.js 文件，包含 变量 和 watch
 
 ```js
 // useCount.ts
-import { ref, watch } from 'vue'
+import { ref, watch } from "vue";
 
-const count = ref(0)
+const count = ref(0);
 
-const doubleCount = ref(0)
+const doubleCount = ref(0);
 
 function handleChangeCount() {
-  count.value++
+  count.value++;
 }
 
 watch(count, () => {
-  doubleCount.value = count.value * 2
-})
+  doubleCount.value = count.value * 2;
+});
 
 export function useCounter() {
   return {
     count,
     handleChangeCount,
     doubleCount,
-  }
+  };
 }
 ```
 
@@ -59,13 +59,9 @@ const { count, handleChangeCount, doubleCount } = useCounter()
 
 ```
 
-
-
-
 ## 2. useCount 被复用，多个组件现实的值都是一样的
 
-
-home组件点击，hall组件的值，也会发生改变。
+home 组件点击，hall 组件的值，也会发生改变。
 
 1. App.vue
 
@@ -111,6 +107,43 @@ const { count, handleChangeCount, doubleCount } = useCounter()
 </script>
 ```
 
+## 3. 问题： 怎么复用一个 useCount，使其数据不互相影响。
 
+在不同的文件中使用 useCount，等于每次执行函数 useCount。 为了达到数据不互相影响，需要把声明变量，保存数据放在函数体内。
 
-## 3. 问题： 怎么复用一个 useCount，使其不互相影响。
+```js
+export function useCount() {
+  const count = ref(0);
+
+  const doubleCount = ref(0);
+
+  function handleChangeCount() {
+    count.value++;
+  }
+
+  return {
+    count,
+    handleChangeCount,
+    doubleCount,
+  };
+}
+```
+
+声明变量，在函数外部，会共用一个数据。
+
+```js
+const count = ref(0);
+const doubleCount = ref(0);
+
+export function useCount() {
+  function handleChangeCount() {
+    count.value++;
+  }
+
+  return {
+    count,
+    handleChangeCount,
+    doubleCount,
+  };
+}
+```
