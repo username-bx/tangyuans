@@ -4,7 +4,7 @@ shortTitle: 一个 vue3 的 mobie web程序，在pc的chrome 手机模式下，�
 icon: pen-to-square
 date: 2025-12-11
 star: true
-order: 62
+order: 63
 category:
   - vue3 mobie
 tag:
