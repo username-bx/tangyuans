@@ -8,7 +8,7 @@ order: 62
 category:
   - mac android
 tag:
-  - date-fns
+  - mac android
 auther: Tang Yuan
 head:
   - - meta
