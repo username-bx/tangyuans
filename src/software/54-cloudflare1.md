@@ -7,7 +7,7 @@ star: true
 order: 54
 category:
   - cloudflare vuepress
-tag: 
+tag:
   - cloudflare vuepress
 auther: Tang Yuan
 head:
@@ -15,7 +15,6 @@ head:
     - name: keywords
       content: cloudflare vuepress
 ---
-
 
 # cloudflare 部署 github 静态的 vuepress 项目
 
@@ -25,12 +24,15 @@ head:
 
 https://dash.cloudflare.com/
 
+
+# google account
+
 ```
 
 2. 左侧 Compute&AI
 
 3. Workers & Pages
-![图片](./image/cloudflare1.png)
+   ![图片](./image/cloudflare1.png)
 
 4. create
 
@@ -44,6 +46,5 @@ https://dash.cloudflare.com/
 2. Build output directory 填写build后生成的静态文件的路径
 
 ```
+
 ![图片](./image/cloudflare2.png)
-
-
