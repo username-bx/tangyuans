@@ -144,6 +144,7 @@ import "./main.css";
 
 ```sh
 pnpm add nprogress
+pnpm add @types/nprogress
 ```
 
 使用方式
