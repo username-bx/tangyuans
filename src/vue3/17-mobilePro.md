@@ -64,10 +64,24 @@ export default {
 };
 ```
 
+## vant 桌面端适配
+
+```sh
+# 安装模块
+pnpm i @vant/touch-emulator -S
+```
+
+使用方式
+
+```js
+// main.ts 引入css
+// vant
+import "@vant/touch-emulator";
+```
+
 ## 6. 安装 postcss
 
 ```sh
-
 pnpm add postcss-mobile-forever -D
 pnpm add autoprefixer -D
 ```
@@ -124,4 +138,45 @@ export default {
 ```js
 // main.ts 引入css
 import "./main.css";
+```
+
+## 8. 安装 进度条 插件
+
+```sh
+pnpm add nprogress
+```
+
+使用方式
+
+```js
+// main.ts 引入css
+import "./main.css";
+```
+
+## 9. 安装 vconsole 插件
+
+```sh
+pnpm add vconsole
+```
+
+使用方式
+
+```js
+import VConsole from "vconsole";
+
+const vConsole = new VConsole();
+// or init with options
+const vConsole = new VConsole({ theme: "dark" });
+
+// call `console` methods as usual
+console.log("Hello world");
+
+// remove it when you finish debugging
+vConsole.destroy();
+```
+
+## 10. 安装 vue-use
+
+```sh
+pnpm i @vueuse/core
 ```
