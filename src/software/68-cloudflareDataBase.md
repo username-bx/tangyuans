@@ -16,7 +16,11 @@ head:
       content: cloudflare db
 ---
 
+# d1 数据库
 
+## 建表
+
+```sh
 CREATE TABLE thoughts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT,
@@ -39,3 +43,23 @@ CREATE TABLE thoughts_new (
     created_at INTEGER DEFAULT (strftime('%s','now','localtime')),
     updated_at INTEGER DEFAULT (strftime('%s','now','localtime'))
 );
+```
+
+
+
+## 导出数据库
+
+
+```sh
+npx wrangler login
+
+npx wrangler d1 list
+
+wrangler d1 export DB_NAME --output=backup.sql
+
+wrangler d1 execute DB_NAME --file=backup.sql
+
+npx wrangler logout
+
+```
+
