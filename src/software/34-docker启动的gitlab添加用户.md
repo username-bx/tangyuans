@@ -4,7 +4,8 @@ shortTitle: docker shell
 icon: pen-to-square
 date: 2025-06-24
 order: 34
-tag: 
+star: true
+tag:
   - docker shell
 auther: Tang Yuan
 head:
@@ -12,8 +13,6 @@ head:
     - name: keywords
       content: docker shell
 ---
-
-
 
 # docker启动gitlab，在终端中添加用户
 
@@ -32,6 +31,7 @@ docker exec -it gitlab /bin/bash
 gitlab-rails console
 
 ```
+
 3. 创建用户命令如下（修改为你的信息）：
 
 ```shell
@@ -44,8 +44,48 @@ u.save!
 ```
 
 4. 退出
+
 ```shell
 
 exit
 
+```
+
+## 设置gitlab管理员，可以管理全部项目
+
+### 1. 找到docker容器
+
+```sh
+
+docker ps
+
+# 找到容器 NAMES： gitlab
+```
+
+### 2. 进入 gitlab 容器
+
+```sh
+docker exec -it gitlab bash
+```
+
+### 3. 进入 Rails 控制台
+
+```sh
+# 进入控制台
+gitlab-rails console
+```
+
+### 4. 设置用户
+
+```sh
+# 找到用户
+user = User.find_by(username: '用户名')
+
+# 设置为管理员
+user.admin = true
+user.save!
+
+# 验证
+user.admin?
+# => true
 ```
