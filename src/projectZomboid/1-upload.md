@@ -69,3 +69,8 @@ EOF
                 └── ...
 
 ```
+
+
+
+## 4. 上传更新代码
+steamcmd +login username password +workshop_build_item /Users/benjamin/upload.vdf +quit
