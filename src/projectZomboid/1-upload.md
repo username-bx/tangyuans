@@ -5,6 +5,7 @@ image:
 icon: pen-to-square
 date: 2026-05-02
 order: 1
+star: true
 tag: 
   - steam
 auther: Tang Yuan
