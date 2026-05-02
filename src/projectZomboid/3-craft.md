@@ -60,6 +60,11 @@ module Base
     - LowerLeg_L;UpperLeg_L 也可以这样写
 2. BiteDefense 防咬
 3. ScratchDefense 防抓
+4. BodyLocation 装备位置 也就是判断会不会冲突 会不会替换别的衣服
+5. Weight = 0.1,            // 重量 (原版很重，改成 0.1 就像羽毛一样)
+6. RunSpeedModifier = 1.1,  // 跑步速度加成！(原版穿厚衣服会减速，1.1代表穿上跑得更快)
+7. CombatSpeedModifier = 1.2, // 攻击速度加成！(穿上后挥舞武器更快)
+8. Insulation = 0.8,        // 保暖度 (0.0 到 1.0)
 
 
 
