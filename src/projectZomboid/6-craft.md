@@ -3,8 +3,8 @@ title: craftRecipe 配方
 shortTitle: craftRecipe 配方
 image:
 icon: pen-to-square
-date: 2026-05-02
-order: 5
+date: 2026-05-21
+order: 6
 star: true
 tag:
   - Project Zomboid
