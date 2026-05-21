@@ -43,18 +43,34 @@ cat << 'EOF' > /Users/benjaminma/upload1.vdf
 EOF
 ```
 
-Simple unlock mod，
+描述信息
+
+```txt
+**简易开锁**
 
 原mod一直未更新，所以自行修复，侵权立删。
 原mod地址 https://steamcommunity.com/sharedfiles/filedetails/?id=2991923398
 
 简易开锁，简易撬锁，需要身上有螺丝刀和回形针
 
-2026/05/21 更新内容 update
+**更新内容 - 2026/05/21**
 
 1. 添加一个删除物品的功能，右键背包，地上，容器的物品可以删除（用于删掉生成在背包的钥匙）
 
 modID:3717762143
+
+
+**Simple Lockpicking**
+Since the original mod hasn't been updated for a long time, I fixed it myself. I will take this down immediately if it infringes on the original author's rights.
+
+Original mod link: https://steamcommunity.com/sharedfiles/filedetails/?id=2991923398
+
+Simple Lockpicking: Requires a screwdriver and a paperclip in your inventory to pick locks.
+
+**Update - 2026/05/21**
+
+1. Added an item deletion feature. You can now delete items from your inventory, the ground, or containers via the right-click menu (mainly designed for deleting unwanted keys that spawn in your backpack).
+```
 
 ## 2. 车辆修理包
 
