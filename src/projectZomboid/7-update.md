@@ -46,6 +46,7 @@ EOF
 描述信息
 
 ```txt
+
 **简易开锁**
 
 原mod一直未更新，所以自行修复，侵权立删。
@@ -55,7 +56,11 @@ EOF
 
 **更新内容 - 2026/05/21**
 
-1. 添加一个删除物品的功能，右键背包，地上，容器的物品可以删除（用于删掉生成在背包的钥匙）
+1. 添加一个删除物品的功能，右键背包，地上，容器的物品可以删除（用于删掉生成在背包的钥匙
+
+**更新内容 - 2026/05/25**
+
+1. 添加json翻译文件
 
 modID:3717762143
 
@@ -70,6 +75,12 @@ Simple Lockpicking: Requires a screwdriver and a paperclip in your inventory to 
 **Update - 2026/05/21**
 
 1. Added an item deletion feature. You can now delete items from your inventory, the ground, or containers via the right-click menu (mainly designed for deleting unwanted keys that spawn in your backpack).
+
+**Update - 2026/05/25**
+
+1. added json tranlste file
+
+
 ```
 
 ## 2. 车辆修理包
