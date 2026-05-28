@@ -62,6 +62,10 @@ EOF
 
 1. 添加json翻译文件
 
+**更新内容 - 2026/05/25**
+
+1. 读条动作 获取特质 player:hasTrait(CharacterTrait.BURGLAR)
+
 modID:3717762143
 
 
@@ -80,6 +84,9 @@ Simple Lockpicking: Requires a screwdriver and a paperclip in your inventory to 
 
 1. added json tranlste file
 
+**Update - 2026/05/27**
+
+1. get player trait  method: player:hasTrait(CharacterTrait.BURGLAR)
 
 ```
 
