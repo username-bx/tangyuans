@@ -20,7 +20,7 @@ head:
 
 ## 建表
 
-```sh
+```sql
 CREATE TABLE thoughts (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     title TEXT,
@@ -30,9 +30,6 @@ CREATE TABLE thoughts (
     created_at INTEGER DEFAULT (datetime('now', 'localtime')),
     updated_at INTEGER DEFAULT (datetime('now', 'localtime'))
 )
-
-
-
 
 CREATE TABLE thoughts_new (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -45,10 +42,7 @@ CREATE TABLE thoughts_new (
 );
 ```
 
-
-
-## 导出数据库
-
+## 本地 terminal 导出数据
 
 ```sh
 npx wrangler login
@@ -63,3 +57,12 @@ npx wrangler logout
 
 ```
 
+
+## 删除表中的某列
+
+```sql
+ALTER TABLE 表名 DROP COLUMN 列名;
+
+-- example
+ALTER TABLE thoughts DROP COLUMN userId;
+```
